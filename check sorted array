@@ -1,0 +1,23 @@
+public class Solution {
+    public static int isSorted(int n, int []a) {
+        // Write your code here.
+        int i=0, j=1;
+        boolean isSorted = true;
+        while(j<n){
+            if(a[j] < a[i]){
+               isSorted = false;
+               break;
+            }
+            else{
+                j++;
+                i++;
+            }
+        }
+        if(isSorted){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
+}
