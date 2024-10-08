@@ -10,14 +10,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine());
         while (t-- > 0) {
-            List<Integer> arr = new ArrayList<>();
-            String input = sc.nextLine();
-            Scanner ss = new Scanner(input);
-            while (ss.hasNextInt()) {
-                arr.add(ss.nextInt());
-            }
+            String[] arr1Str = sc.nextLine().split(" ");
+            int[] arr = Arrays.stream(arr1Str).mapToInt(Integer::parseInt).toArray();
             Solution ob = new Solution();
-            int ans = ob.print2largest(arr);
+            int ans = ob.getSecondLargest(arr);
             System.out.println(ans);
         }
     }
@@ -29,20 +25,27 @@ public class Main {
 // User function Template for Java
 
 class Solution {
-    public int print2largest(List<Integer> arr) {
+    public int getSecondLargest(int[] arr) {
         // Code Here
-        int n = arr.size();
-        int max = Integer.MIN_VALUE;
-        int sec_max = -1;
+        int n = arr.length;
+        int max1 = Integer.MIN_VALUE;
+        int max2 = Integer.MIN_VALUE;
+        
         for(int i=0; i<n; i++){
-            if(arr.get(i) > max)
-            max = arr.get(i);
-        }
-        for(int i=0; i<n; i++){
-            if(arr.get(i) != max && arr.get(i) > sec_max){
-                sec_max = arr.get(i);
+            if(arr[i]>max1){
+                max1 = arr[i];
             }
         }
-        return sec_max;
+        
+        for(int i=0; i<n; i++){
+            if(arr[i] != max1 && (arr[i]>max2)){
+                max2 = arr[i];
+            }
+        }
+        if(max2 == Integer.MIN_VALUE)
+        return -1;
+        else
+        return max2;
+
     }
 }
