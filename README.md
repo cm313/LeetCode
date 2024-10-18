@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/cm313/LeetCode/tree/master/0009-palindrome-number) |
+| [2032-largest-odd-number-in-string](https://github.com/cm313/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Array
 |  |
 | ------- |
@@ -37,4 +38,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/cm313/LeetCode/tree/master/0219-contains-duplicate-ii) |
+## String
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/cm313/LeetCode/tree/master/2032-largest-odd-number-in-string) |
+## Greedy
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/cm313/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
