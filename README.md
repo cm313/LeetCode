@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/cm313/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/cm313/LeetCode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/cm313/LeetCode/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/cm313/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/cm313/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0283-move-zeroes](https://github.com/cm313/LeetCode/tree/master/0283-move-zeroes) |
@@ -24,17 +25,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/cm313/LeetCode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/cm313/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/cm313/LeetCode/tree/master/0219-contains-duplicate-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/cm313/LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/cm313/LeetCode/tree/master/0217-contains-duplicate) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/cm313/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -57,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/cm313/LeetCode/tree/master/0075-sort-colors) |
 | [0283-move-zeroes](https://github.com/cm313/LeetCode/tree/master/0283-move-zeroes) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
