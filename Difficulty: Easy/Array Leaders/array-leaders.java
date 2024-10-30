@@ -25,7 +25,8 @@ class Geeks {
                     if (i != 0) System.out.print(" ");
                     System.out.print(result.get(i));
                 }
-                System.out.println(); // Ensure new line after each test case output
+                System.out.println();    // Ensure new line after each test case output
+                System.out.println("~"); // Ensure new line after each test case output
             }
         }
     }
@@ -37,27 +38,17 @@ class Geeks {
 class Solution {
     static ArrayList<Integer> leaders(int arr[]) {
         // code here
-        int n = arr.length;
         ArrayList<Integer> list = new ArrayList<>();
-        int i=0;
-        while(i<n-1){
-            int j = i+1;
-            while(j<n){
-                if(arr[i]<arr[j]){
-                    break;
-                }
-                else{
-                    j++;
-                }
-            }
-                if(j == n){
-                    list.add(arr[i]);
-                }
-                i++;
-            }
-        list.add(arr[n-1]);
-         return list;
-    }
-        }
-         
+        int n = arr.length;
+        int max = Integer.MIN_VALUE;
 
+        for(int i= n-1; i>=0; i--){
+            if(arr[i]>=max){
+                max = arr[i];
+                list.add(max);
+            }
+        }
+        Collections.reverse(list);
+        return list;
+    }
+}
