@@ -8,7 +8,7 @@ class Solution {
           };
           map.put(nums[i], i);
         }
-            return new int[0];
+            return new int[]{};
     }
 
 }
