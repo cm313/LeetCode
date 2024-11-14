@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/cm313/LeetCode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/cm313/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/cm313/LeetCode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/cm313/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/cm313/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/cm313/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0290-word-pattern](https://github.com/cm313/LeetCode/tree/master/0290-word-pattern) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/cm313/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/cm313/LeetCode/tree/master/0058-length-of-last-word) |
 | [0151-reverse-words-in-a-string](https://github.com/cm313/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/cm313/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/cm313/LeetCode/tree/master/0290-word-pattern) |
 | [0812-rotate-string](https://github.com/cm313/LeetCode/tree/master/0812-rotate-string) |
 | [2032-largest-odd-number-in-string](https://github.com/cm313/LeetCode/tree/master/2032-largest-odd-number-in-string) |
